@@ -25,7 +25,7 @@ class CampPhotoSeeder extends Seeder
             for ($i = 0; $i <  3; $i++) {
                 CampPhoto::create([
                     // 'url'   =>  'https://i.picsum.photos/id/' . random_int(100, 999) . '/500/500.jpg',
-                    'url' => 'http://lorempixel.com/640/480/',
+                    'url' => 'https://loremflickr.com/640/480/',
                     'camp_id'   =>  $camp->id
                 ]);
             }
